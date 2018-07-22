@@ -2,7 +2,7 @@ language: node_js
 node_js: node
 
 deploy:
-  app: 
+  app: frozen-bastion-95530
   provider: heroku
   api_key:
     secure: "c1433afb-e8ff-43ea-b3cc-25d0ad0620c4"
