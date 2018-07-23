@@ -1,8 +1,9 @@
 language: node_js
 node_js: node
-
 deploy:
-  app: frozen-bastion-95530
   provider: heroku
   api_key:
-    secure: "c1433afb-e8ff-43ea-b3cc-25d0ad0620c4"
+    secure: iv73VJNjstFBkwWsTgBtAl2Y7kmiwwwaOJ/F8mBnCoymdxqFVMI4QTzgNtJMZcEumBvbbTbpqaIrHMVPbNnrmeHtVIdN63Tpi5u8Iayq/+wun4/DyvihzBY3PGcudYOTSY2bLbtwuBtMcXYJ7q96IN+TPzxGdNJwgCLbwgVUor9TOwmfi3vfunzM2WMd+mefRfdfhGRw5d2qRrx6objIC8VF3MKx4RE2NHsEuRdD0U+wqyb056H27kpkHXKFB+XG1prL97fKX5XeGh3kVwmde6adR2TbPXDTHMCceI3mubYwc1gaB3Mdgy0VG+qRk2uTSQJDjPb6k0odxL0dZI4sTMVglDK/1d3Bp4P2SskodVNktR+dz6ZXb7GZsuhTHVuPlMw+JS6PKU3nnHq6IB4DEFiPVoQ6LHyYduRaJzYSAP6k/YNQMOCI9SGr/74ISs5mzrofobKkhxOW7/HJTTrc8cALvI8nLiJmn2iUb+23b7Tj6vN0BizywOYbO17SQpMlq5XUu4YxDvcoFRdHtoX7uDmIq5DiqqlpnRTPc1K1le+lxHrFn7U8KBtaDesXgdPmwI3atnPhHuFlTFEJcTiRTMtCJZ9gWH7bt7ZoUooUlzQJf4PEUS3x/KUeguiw/1Imsh3sIXnFNh4za2HbFvo5OLZ35XMjckk+wSwryHzSdQM=
+  app: frozen-bastion-95530
+  on:
+    repo: kimura-dev1297/Blog-Post
